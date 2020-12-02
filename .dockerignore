@@ -1,0 +1,12 @@
+# node_modules and dist are built as a part of creating images
+node_modules
+dist
+# test folder is not needed during creating images
+test
+# files for linting are not needed during creating images
+.eslintrc.js
+.gitignore
+debug.log
+README.md
+# ignore all test files
+*.spec.ts
